@@ -1,3 +1,3 @@
-docker stop he_lloworld
-docker rm he_lloworld
+docker kill app_container
+docker rm app_container
 docker network rm my_network
