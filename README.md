@@ -1,9 +1,8 @@
 # dockertest
 Messing around with Docker
 
-start_container.sh is the docker command line to start up an instance of 
-this Hello_World flasked Python app.
+start_container.sh - will start containers for all images needed for this application 
 
-stop_container.sh is the docker command line to stop this instance.
+stop_container.sh - will stop and delete all containers for this application
 
-build_container.sh will build a flask_app container.
+build_image.sh will build a images needed for this application.
